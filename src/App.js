@@ -46,7 +46,7 @@ const App = () =>{
     const LOCAL_STORAGE_KEY = "contacts";
     const [contacts, setContact] = useState(()=>{
         const retrieveContacts = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
-        return retrieveContacts ? retrieveContacts : [];
+        return retrieveContacts ? retrieveContacts : defaultContacts;
     });
 
 
@@ -56,8 +56,7 @@ const App = () =>{
     // LocalStorage 
     useEffect(()=>{
         const retrieveContacts = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
-        if(retrieveContacts.length > 0) setContact(retrieveContacts);
-        else setContact(defaultContacts);
+        if(retrieveContacts) setContact(retrieveContacts);
     },[])
 
     useEffect(()=>{
