@@ -1,0 +1,100 @@
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.parent{
+    overflow: auto;
+    height: 660px;
+}
+
+.parent::-webkit-scrollbar{
+    display: none;
+}
+
+.name{
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.hr-style{
+    margin: auto;
+}
+
+.userLogo{
+    width: 50px;
+    height: 40px;
+}
+
+.inner-items{
+    display: flex;
+}
+
+.addContact-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cstm-btn{
+    font-size: 16px;
+    padding: 6px 9px;
+}
+
+.link-detail{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.content{
+    width: 200px;
+    overflow: auto;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#search{
+    border-radius: 0px;
+}   
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+/*    Media Queries   */
+@media screen and (max-width:400px){
+    .items{
+        width: 320px;
+    }
+    
+    .hr-style{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .content{
+        width: 150px;
+    }
+    .items{
+        width:285px;
+    }
+}
+
+@media screen and (max-height:670px){
+    .parent{
+        height: 490px;
+    }
+}
