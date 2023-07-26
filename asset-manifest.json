@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/contact-manager/static/css/main.a5302cec.css",
+    "main.js": "/contact-manager/static/js/main.7b0430f0.js",
+    "static/media/cartoon-image.jpg": "/contact-manager/static/media/cartoon-image.5af9f5917df6e05a988c.jpg",
+    "static/media/user-profile.png": "/contact-manager/static/media/user-profile.76a001d0c402b5637a97.png",
+    "index.html": "/contact-manager/index.html",
+    "main.a5302cec.css.map": "/contact-manager/static/css/main.a5302cec.css.map",
+    "main.7b0430f0.js.map": "/contact-manager/static/js/main.7b0430f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5302cec.css",
+    "static/js/main.7b0430f0.js"
+  ]
+}
